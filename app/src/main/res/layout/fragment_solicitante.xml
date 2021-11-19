@@ -81,7 +81,7 @@
         android:layout_width="250dp"
         android:layout_height="125dp"
         android:layout_marginTop="64dp"
-        android:background="@drawable/custom_button_login"
+        android:background="@drawable/custom_button_enviar"
         android:fontFamily="@font/gotham_medium"
         android:text="@string/enviar_solicitante"
         android:textAllCaps="false"
@@ -93,8 +93,8 @@
 
     <ImageView
         android:id="@+id/logo_izq"
-        android:layout_width="250dp"
-        android:layout_height="140dp"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="32dp"
         android:contentDescription="@string/logo_caritas_izq"
@@ -104,8 +104,8 @@
 
     <ImageView
         android:id="@+id/logo_der"
-        android:layout_width="250dp"
-        android:layout_height="140dp"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
         android:contentDescription="@string/logo_caritas_der"

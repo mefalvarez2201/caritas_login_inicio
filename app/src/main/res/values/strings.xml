@@ -31,8 +31,9 @@
     <string name="grafica3_desc">grafica3</string>
     <string name="grafica4_desc">grafica4</string>
     <string name="solicitante_titulo">Complete el registro</string>
-    <string name="a_qu_departamento_se_dirige">1. ¿A qué departamento se dirige?</string>
+    <string name="a_qu_departamento_se_dirige">1. Departamento o empleado al que se dirige</string>
     <string name="qu_es_lo_que_necesita">2. ¿Qué es lo que \n necesita?</string>
     <string name="enviar_solicitante">Enviar</string>
     <string name="inicia_tu_turno_aqu">Inicia tu turno aquí</string>
+    <string name="boton_menu_login">boton_menu_login</string>
 </resources>

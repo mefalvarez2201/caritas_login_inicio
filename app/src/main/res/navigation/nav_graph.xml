@@ -59,5 +59,17 @@
         <action
             android:id="@+id/action_solicitante_to_menu"
             app:destination="@id/menu" />
+        <action
+            android:id="@+id/action_solicitante_to_popUp"
+            app:destination="@id/popUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/popUp"
+        android:name="com.mefalvarez.caritas_login_inicio.PopUp"
+        android:label="fragment_pop_up"
+        tools:layout="@layout/fragment_pop_up" >
+        <action
+            android:id="@+id/action_popUp_to_menu"
+            app:destination="@id/menu" />
     </fragment>
 </navigation>

@@ -42,8 +42,13 @@ class Solicitante : Fragment() {
 
         val Departamentos = arrayOf(
             Departamento("Departamento 1", "departamento1@email.com"),
-            Departamento("Departamento 2", "departamento2@email.com"),
-            Departamento("Departamento 3", "departamento3@email.com")
+            Departamento("Solicitudes", "departamento2@email.com"),
+            Departamento("Donaciones", "departamento3@email.com"),
+            Departamento("Banco de Alimentos", "bancodealimentos@email.com"),
+            Departamento("Juan Lopez", "juanlopez@email.com"),
+            Departamento("Manuel Gonzalez", "manuelgonzalez@email.com"),
+            Departamento("Javier Alvarez", "javieralvarez@email.com"),
+            Departamento("Mario Gutierrez", "mariogutierrez@email.com")
         )
 
         //val adapter = getActivity()?.let { ArrayAdapter(it, android.R.layout.simple_expandable_list_item_1, Departamentos) }
@@ -54,6 +59,10 @@ class Solicitante : Fragment() {
 
         binding.solicitanteToMenu.setOnClickListener {
             findNavController().navigate(R.id.action_solicitante_to_menu)
+        }
+
+        binding.buttonEnviar.setOnClickListener {
+            findNavController().navigate(R.id.action_solicitante_to_popUp)
         }
     }
 }
